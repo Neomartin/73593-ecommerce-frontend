@@ -1,0 +1,33 @@
+.section-info {
+    display: flex;
+    min-height: 340px;
+    flex-direction: column;
+
+
+    .info-container {
+        flex: 1 1 320px;
+        background-color: rgb(239, 239, 239);
+        padding: 24px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        order: 1;
+
+        h1 {
+            margin-bottom: 12px;
+        }
+    }
+
+    .info-image-container {
+        /* Valor de order por defecto */
+        /* order: 0;  */
+        flex: 1 1 320px;
+        background-color: rgb(201, 245, 201);
+        background-image: url("https://images5.alphacoders.com/133/1338700.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* background-blend-mode: color; */
+    }
+}
